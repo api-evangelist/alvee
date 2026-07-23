@@ -1,0 +1,13 @@
+generated: '2026-07-17'
+method: searched
+source: https://www.alvee.io/
+standards:
+- id: hipaa
+  conforms: true
+  evidence: Alvee Health homepage states the platform is HIPAA compliant.
+- id: smart-on-fhir
+  conforms: true
+  evidence: Alvee Health homepage states the platform is SMART on FHIR certified.
+- id: fhir
+  conforms: true
+  evidence: SMART on FHIR certification implies HL7 FHIR-based EHR integration.

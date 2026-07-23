@@ -1,7 +1,25 @@
 aid: alvee
-name: alvee
-description: alvee is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alvee.png
+name: Alvee Health
+description: Alvee Health is an AI-powered care navigation platform for social determinants
+  of health (SDOH) and whole-person care coordination. It surfaces unmet social and
+  clinical needs from documentation, auto-codes Z-codes, automates patient outreach
+  and benefits enrollment through an autonomous care navigator, generates compliant
+  billing documentation, and tracks outcomes so providers can capture reimbursement
+  for CHI, PIN, CCM, PCM, and G0136 care-coordination codes. The platform is HIPAA
+  compliant and SMART on FHIR certified, integrating with EHRs to embed social drivers
+  of health into clinical workflows. Alvee is a Techstars Iowa (2022) portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/alvee/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +32,15 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Healthcare
+- SDOH
+- Social Determinants of Health
+- Care Coordination
+- Care Navigation
+- Health Equity
+- Artificial Intelligence
+- FHIR
+- HIPAA
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/alvee-domain-security.yml
+- type: Conformance
+  url: conformance/alvee-conformance.yml
+- type: Compliance
+  url: conformance/alvee-conformance.yml
 - type: Website
-  url: https://alvee.io/
+  url: https://www.alvee.io/
+- type: About
+  url: https://www.alvee.io/about-us
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
